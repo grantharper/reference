@@ -18,12 +18,9 @@ Software packages
 * default-jdk
 * git
 * maven
-* apache2
-* python
-* python3
 * python3-pip
 * curl
-* openssl
+* apache2
 
 ### Installation of .deb packages
 
@@ -35,7 +32,7 @@ Software packages
 
 ### Installation of pip packages
 
-`sudo pip3 install flask`
+`sudo pip3 install`
 
 Software packages
 * flask

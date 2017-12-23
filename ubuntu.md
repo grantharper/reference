@@ -20,6 +20,7 @@ Software packages
 * maven
 * python3-pip
 * curl
+* vim
 * apache2
 
 ### Installation of .deb packages
@@ -30,13 +31,13 @@ Software packages
 * vscode
 * chrome
 
+### Custom installation
+
+[awscli](http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-bundle.html) 
+
 ### Installation of pip packages
 
 `sudo pip3 install`
 
 Software packages
 * flask
-
-
-[1] 7930
-[2] 7976

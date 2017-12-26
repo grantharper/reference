@@ -7,6 +7,22 @@
 * Wipe hard drive using DBAN if necessary
 * Install Ubuntu
 
+## Disable Touchsreen
+
+Change Driver to "libinput" for the touchscreen
+
+`sudo vim /usr/share/X11/xorg.conf.d/10-evdev.conf`
+
+```
+Section "InputClass"
+        Identifier "evdev touchscreen catchall"
+        MatchIsTouchscreen "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+EndSection
+```
+
+
 ## Software Installation
 
 ### Installation using apt-get
@@ -34,6 +50,11 @@ Software packages
 ### Custom installation
 
 [awscli](http://docs.aws.amazon.com/cli/latest/userguide/awscli-install-bundle.html) 
+
+[IntelliJ]
+(https://www.jetbrains.com/idea/download/#section=linux)
+
+Extract and run bin/idea.sh to install
 
 ### Installation of pip packages
 

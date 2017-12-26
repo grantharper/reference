@@ -65,3 +65,11 @@ delete tags
 setup to not verify ssl certs
 
 `git config --global http.sslVerify false`
+
+## Setup
+
+enable caching of credentials to avoid repeated prompts
+
+`git config --global credential.helper cache`
+
+`git config --global credential.helper 'cache --timeout=3600'`

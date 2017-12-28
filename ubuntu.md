@@ -62,3 +62,9 @@ Extract and run bin/idea.sh to install
 
 Software packages
 * flask
+
+## Tips
+
+Kill a process on a specific port
+
+`fuser -k 8080/tcp`

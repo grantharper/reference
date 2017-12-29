@@ -68,3 +68,7 @@ Software packages
 Kill a process on a specific port
 
 `fuser -k 8080/tcp`
+
+Create a system user with no home directory or login
+
+`useradd -r <username>`

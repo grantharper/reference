@@ -18,10 +18,6 @@ pull in the contents of a remote branch to local branch
 
 `git pull origin <branch-name>`
 
-create a new local branch to track existing remote branch
-
-`git checkout -b <branch-name> remotes/origin/<branch-name>`
-
 delete a local branch
 
 `git branch -d <branch-name>`
@@ -73,3 +69,9 @@ enable caching of credentials to avoid repeated prompts
 `git config --global credential.helper cache`
 
 `git config --global credential.helper 'cache --timeout=3600'`
+
+## Alias
+
+See the [alias] section of the `.gitconfig` file for information on these
+
+
